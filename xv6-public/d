@@ -1,4 +1,4 @@
-cscope 15 /OS/xv6-public               0000245039
+cscope 15 /OS/xv6-public               0000244887
 	@asm.h
 
 5 
@@ -3729,11 +3729,7 @@ uva
 	`myfunùiÚ
 (*);
 
-193 
-	`g‘gpid
-();
-
-197 
+193 
 	#NELEM
 (
 x
@@ -24608,165 +24604,155 @@ sys_u±ime
 sys_myfunùiÚ
 ();
 
-107 
-sys_g‘gpid
-();
-
-109 (*
+108 (*
 sysÿÎs
 [])() = {
 
-110 [
+109 [
 SYS_fÜk
 ] 
 sys_fÜk
 ,
 
-111 [
+110 [
 SYS_ex™
 ] 
 sys_ex™
 ,
 
-112 [
+111 [
 SYS_wa™
 ] 
 sys_wa™
 ,
 
-113 [
+112 [
 SYS_pe
 ] 
 sys_pe
 ,
 
-114 [
+113 [
 SYS_»ad
 ] 
 sys_»ad
 ,
 
-115 [
+114 [
 SYS_kžl
 ] 
 sys_kžl
 ,
 
-116 [
+115 [
 SYS_exec
 ] 
 sys_exec
 ,
 
-117 [
+116 [
 SYS_f¡©
 ] 
 sys_f¡©
 ,
 
-118 [
+117 [
 SYS_chdœ
 ] 
 sys_chdœ
 ,
 
-119 [
+118 [
 SYS_dup
 ] 
 sys_dup
 ,
 
-120 [
+119 [
 SYS_g‘pid
 ] 
 sys_g‘pid
 ,
 
-121 [
+120 [
 SYS_sbrk
 ] 
 sys_sbrk
 ,
 
-122 [
+121 [
 SYS_¦“p
 ] 
 sys_¦“p
 ,
 
-123 [
+122 [
 SYS_u±ime
 ] 
 sys_u±ime
 ,
 
-124 [
+123 [
 SYS_Ý’
 ] 
 sys_Ý’
 ,
 
-125 [
+124 [
 SYS_wr™e
 ] 
 sys_wr™e
 ,
 
-126 [
+125 [
 SYS_mknod
 ] 
 sys_mknod
 ,
 
-127 [
+126 [
 SYS_uÆšk
 ] 
 sys_uÆšk
 ,
 
-128 [
+127 [
 SYS_lšk
 ] 
 sys_lšk
 ,
 
-129 [
+128 [
 SYS_mkdœ
 ] 
 sys_mkdœ
 ,
 
-130 [
+129 [
 SYS_þo£
 ] 
 sys_þo£
 ,
 
-131 [
+130 [
 SYS_myfunùiÚ
 ] 
 sys_myfunùiÚ
 ,
 
-132 [
-SYS_g‘gpid
-] 
-sys_g‘gpid
-,
-
-133 
+131 
 	}
 };
 
-136 
+134 
 	$sysÿÎ
 ()
 
-138 
+136 
 num
 ;
 
-139 
+137 
 ´oc
  *
 cu½roc
@@ -24774,7 +24760,7 @@ cu½roc
 	`my´oc
 ();
 
-141 
+139 
 num
  = 
 cu½roc
@@ -24784,7 +24770,7 @@ tf
 —x
 ;
 
-142 if(
+140 if(
 num
  > 0 &&‚um < 
 	`NELEM
@@ -24792,7 +24778,7 @@ num
 sysÿÎs
 ) && syscalls[num]) {
 
-143 
+141 
 cu½roc
 ->
 tf
@@ -24804,11 +24790,11 @@ sysÿÎs
 num
 ]();
 
-145 
+143 
 	`ýrštf
 ("%d %s: unknown sys call %d\n",
 
-146 
+144 
 cu½roc
 ->
 pid
@@ -24818,7 +24804,7 @@ pid
 num
 );
 
-147 
+145 
 cu½roc
 ->
 tf
@@ -24826,7 +24812,7 @@ tf
 —x
  = -1;
 
-149 
+147 
 	}
 }
 
@@ -24961,12 +24947,6 @@ tf
 23 
 	#SYS_myfunùiÚ
  22
-
-	)
-
-24 
-	#SYS_g‘gpid
- 23
 
 	)
 
@@ -28718,67 +28698,63 @@ fd
 	`myfunùiÚ
 (*);
 
-27 
-	`g‘gpid
-();
-
-30 
+29 
 	`¡©
 (cÚ¡ *, 
 ¡©
 *);
 
-31 * 
+30 * 
 	`¡rýy
 (*, const *);
 
-32 *
+31 *
 	`memmove
 (*, const *, );
 
-33 * 
+32 * 
 	`¡rchr
 (cÚ¡ *, 
 c
 );
 
-34 
+33 
 	`¡rcmp
 (const *, const *);
 
-35 
+34 
 	`´štf
 (, const *, ...);
 
-36 * 
+35 * 
 	`g‘s
 (*, 
 max
 );
 
-37 
+36 
 ušt
  
 	`¡¾’
 (const *);
 
-38 * 
+37 * 
 	`mem£t
 (*, , 
 ušt
 );
 
-39 * 
+38 * 
 	`m®loc
 (
 ušt
 );
 
-40 
+39 
 	`ä“
 (*);
 
-41 
+40 
 	`©oi
 (const *);
 
@@ -28955,15 +28931,9 @@ u±ime
 )
 
 32 
-	$SYSCALL
-(
-myfunùiÚ
-)
-
-33 
 	`SYSCALL
 (
-g‘gpid
+myfunùiÚ
 )
 
 	@vectors.S

@@ -72,4 +72,6 @@
 ./entryother.S
 ./swtch.S
 ./kalloc.c
+./my_userapp.c
 ./vectors.S
+./prac_syscall.c
